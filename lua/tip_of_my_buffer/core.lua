@@ -9,8 +9,6 @@ function M.log(msg)
 	end
 end
 
-local timer = nil
-
 function M.debounce(func, delay)
 	utils.debounce(func, delay)
 end
